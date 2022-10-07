@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    margin: 10px 10px 0px 10px;
+    height: 50px;
+    background-color: #3333;
+}
+
+.header a {
+    float: right;
+    display: block;
+    color: rgb(139, 24, 24);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
+.header a:active {
+    background-color: #9f3927;
+    color: white;
+}
+
+.motivation {
+    height: 500px;
+    margin: 0px 10px;
+    background-color: #3333;
+    background-image: url(../images/boy.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.quote-section {
+    height: 100%;
+    position: relative;
+    width: 50%;
+}
+
+#quote {
+    font-size: 50px;
+    position: absolute;
+    bottom: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about {
+    height: 300px;
+    margin: 0px 10px;
+    background-color: #c9a6a6;
+    position: relative;
+    /* display: flex; */
+}
+
+.about h1,.contact-basic h1 {
+    text-align: end;
+    padding: 20px 30px 0px 0px;
+}
+
+.about-para {
+    padding: 50px;
+    position:relative;
+    text-align: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.services {
+    background-color: #3333;
+    height: 300px;
+    margin: 0px 10px;
+}
+
+.services h1 {
+    padding: 20px 0px 0px 30px;
+}
+
+.services-list {
+    font-size: 25px;
+    padding: 50px 70px;
+    list-style-position: inside;
+}
+
+.contact{
+    height: 300px;
+    margin: 0px 10px;
+    background-color: #c9a6a6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-para{
+    padding: 50px 50px 10px 50px;
+    position:relative;
+    text-align: end;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.contact-social{
+padding-right: 50px;
+}
+
+.contact-social img{
+    height: 25px;
+}
